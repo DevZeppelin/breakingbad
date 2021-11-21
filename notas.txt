@@ -1,0 +1,48 @@
+1.En Terminal instalar emotion:
+npm i @emotion/core @emotion/styled
+
+2. Hay 3 formas de esperar un onclick:
+onClick={nombreFuncion} > Cuando presiono el click 
+onClick={ ()=>nombreFuncion() } > Cuando el usuario hace click
+onClick={ nombreFuncion() } > Se ejecuta sin que el usuario haga click
+
+
+3. API:
+
+-Aplication Programming Interface
+-Son funciones o metodos que ofrece una libreria para ser utilizada por otro software
+-Tambien se las conoce como web service, osea conectarse a un servicio via web
+-Para acceder al servicio hay quye enviar una peticion estructurada
+-Por lo general se una JSON pero XML tambien es comun
+-Un ejemploGoogle Maps API
+
+4. REST API
+-Representional State Transfer
+-Puede ser diseñada y consumida en cualquier lenguaje
+-Al final veremos como crear una REST-La APi debe responder a los request HTTP: GET,POST,PUT,PATCH,DELETE
+-Cada API tiene sus reglas
+
+ENDPONITS y REQUESTS
+Una API cuenta con una cantidad de URLs para hacer operaciones CRUD
+-Listar todos los clientes: GET /clientes
+-Obtener un cliente: GET /clientes/10
+-Crear nuevo cliente: POST /clientes
+-Editar un cliente: PUT /clientes/3
+-Eliminar cleinte: DELETE /clientes/3
+
+CONSULTAR APIS CON REACT:
+-Fetch API y Ajax (nativo en JS)
+-Axios
+-jQuery y Ajax
+ 
+ 5. VERIFICAR SI UN OBJETO ESTÁ VACÍO Object KEYS!!
+
+    if(Object.keys(frase).lenght === 0){
+
+    }
+
+6. USE EFFECT
+
+Un UseEffect es como un: Document.ready o addEventListener de DOMContentLoader
+
+Cuando un usuario se loguea quieres que cargue inicialmente los clientes y lo haces con useEffect
